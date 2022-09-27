@@ -1,1 +1,13 @@
+.mountain-icon-container {
+    display: flex;
+    justify-content: space-around;
+}
 
+.mountain-icon {
+    display: flex;
+    background-color: green;
+    width: 21vw;
+    height: 40vh;
+    justify-content: center;
+
+}

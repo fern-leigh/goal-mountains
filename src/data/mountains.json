@@ -1,14 +1,20 @@
-{
-  "mountains": [
+ [
     {
       "id": 1,
       "title": "test1",
       "steps": ["blah", "something", "another thing"]
     },
-    {
-      "id": 2,
-      "title": "test2",
-      "steps": ["blah", "something", "another thing", "more steps", "do things"]
-    }
+   {
+     "id": 2,
+     "title": "test2",
+     "steps": ["blah", "something", "another thing", "more steps", "do things"]
+   },    {
+   "id": 3,
+   "title": "test3",
+   "steps": ["blah", "something", "another thing", "more steps", "do things"]
+ },    {
+   "id": 4,
+   "title": "test4",
+   "steps": ["blah", "something", "another thing", "more steps", "do things"]
+ }
   ]
-}

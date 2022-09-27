@@ -11,7 +11,7 @@ import Mountains from '../components/Mountains'
 import Trophies from '../components/Trophies'
 
 
-export default function GoalMountains() {
+export default function GoalMountains({data}) {
   return (
 
     <div>
@@ -21,7 +21,7 @@ export default function GoalMountains() {
       <main>
           <BrowserRouter>
               <Routes>
-                  <Route path="/" element={<Home />} />
+                  <Route path="/" element={<Home data={data} />} />
                   <Route path="/mountains" element={<Mountains />} />
                   <Route path="/trophy-room" element={<Trophies />} />
               </Routes>

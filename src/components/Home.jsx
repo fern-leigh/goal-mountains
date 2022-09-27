@@ -1,16 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-export default function Home() {
-const data = require('../data/mountains.json');
-
-const listItems = data.mountains.map(item =>
-     <div key={item.id}>
+export default function Home({data}) {
+const listItems = data.map(item =>
+     <div key={item.id} className="mountain-icon">
         <p>{item.title}</p>
      </div>
 );
 
     return (
-    listItems
+    <div className="mountain-icon-container">
+    {listItems}
+    </div>
     )
+
 }
