@@ -2,10 +2,11 @@ import './App.css';
 import GoalMountains from './containers/GoalMountains'
 
 function App() {
-const data = require('./data/mountains.json');
+const mountainData = require('./data/mountains.json');
+const trophyData = require('./data/trophies.json');
 
   return (
-    <GoalMountains data={data} />
+    <GoalMountains mountainData={mountainData} trophyData={trophyData}/>
   );
 }
 

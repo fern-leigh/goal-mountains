@@ -1,17 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-export default function Home({data}) {
-const listItems = data.map(item =>
-     <div key={item.id} className="mountain-icon">
-        <p>{item.title}</p>
-     </div>
-);
-
+export default function Home() {
     return (
-    <div className="mountain-icon-container">
-    {listItems}
-    </div>
+    <>
+        <div>
+            <a href="/mountains">
+            Mountains
+             </a>
+        </div>
+        <div>
+            <a href=" /trophy-room">
+            Trophies
+            </a>
+        </div>
+    </>
     )
 
 }
