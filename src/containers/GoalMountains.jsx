@@ -6,6 +6,7 @@ Routes,
   Route
 } from "react-router-dom";
 
+
 import Home from '../components/Home'
 import Mountains from '../components/Mountains'
 import Trophies from '../components/Trophies'
