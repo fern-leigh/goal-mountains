@@ -6,19 +6,30 @@
 .mountain-container {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 2vw;
+    margin:auto;
+    width: 96vw;
+    
 }
 
 .mountain {
     display: flex;
     flex-direction: column;
-    width: 21vw;
-    height: 35vh;
-    padding: 1%;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 21vw;
+    min-height: 35vh;
+    padding: 12% 1% 1% 1%;
+    /* padding-top: 12%; */
     margin: 5px;
     border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 10px; 
+    background-image: url("https://illustoon.com/photo/thum/4519.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-color: #ffffff;
+    filter:brightness(85%) sepia(3%);
 }
+
 .trophy-container {
     display: flex;
     flex-wrap: wrap;
@@ -35,3 +46,69 @@
     border: 1px solid black;
     border-radius: 10px;
 }
+
+body {
+    background-color: #cee0d3;
+    margin: 0;
+    padding: 0;
+}
+
+/* main {
+    
+} */
+
+header {
+    background-color: #a3c4ab;
+    color:#041709;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0vw 3vw 0vw 3vw;
+    font-family: fantasy;
+    box-shadow: 1px 2px 2px 1px rgba(0, 0, 255, .2);
+}
+
+nav {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* height: 100%; */
+}
+
+nav ul {
+    display: flex;
+    list-style: none;    
+    height: 80%;
+    align-items: center;
+}
+
+nav a {
+    color: #041709;
+    text-decoration: none;
+    padding-right: 1vw;
+    margin-right: 1vw;
+    font-weight: 700;
+    border-bottom: 1px solid grey;
+    padding-bottom: 0.5vw;
+    border-right: 1px solid grey;
+    border-radius: 10%;
+    padding-left: 1vw;
+    box-shadow: 1px 2px 2px 1px rgba(0, 0, 255, .2);
+
+}
+
+nav a:hover {
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, .2);
+
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: fantasy;
+}
+

@@ -1,20 +1,39 @@
  [
     {
       "id": 1,
-      "title": "test1",
-      "steps": ["blah", "something", "another thing"]
+      "type": "book",
+      "title": "Dark Witch",
+      "pages": 352,
+      "progress": 70,
+      "startDate": "2022-12-1"
     },
    {
      "id": 2,
-     "title": "test2",
-     "steps": ["blah", "something", "another thing", "more steps", "do things"]
-   },    {
+     "type": "creative",
+     "title": "complete dragon art book",
+     "steps": ["Exercise one", "Exercise two", "another thing", "more steps", "do things"],
+     "progress": 0,
+     "startDate": ""
+   },
+   {
    "id": 3,
-   "title": "test3",
-   "steps": ["blah", "something", "another thing", "more steps", "do things"]
- },    {
+   "type": "habit",
+   "title": "Daily meditation",
+   "frequency": "daily",
+   "milestones": ["1 day", "1 week", "2 weeks", "3 weeks", "1 month"],
+   "targetSessions": [30, "consecutive"],
+   "progress": 0,
+   "startDate": ""
+ },
+ {
    "id": 4,
-   "title": "test4",
-   "steps": ["blah", "something", "another thing", "more steps", "do things"]
+   "type": "study",
+   "title": "Learn Python",
+   "learningFormat": "online",
+   "platform": "Codecademy",
+   "milestones": ["blah", "something", "another thing", "more steps", "do things"],
+   "daysTrainied": 15,
+   "progress": 25,
+   "startDate": "2022-12-1"
  }
   ]

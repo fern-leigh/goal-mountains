@@ -16,8 +16,17 @@ export default function GoalMountains({mountainData, trophyData}) {
   return (
 
     <div>
-      <header >
-          <h1> Let's Climb Some Mountains! </h1>
+      <header className='site-header' >
+            <h1> Goal Mountains </h1>
+            <nav>
+              <ul>
+                <li><a href="/">Home</a></li>
+                <li>
+                  <a href="/mountains">Mountains</a>
+                </li>
+                <li><a href="/trophy-room">Trophies</a></li>
+              </ul>
+            </nav>
       </header>
       <main>
           <BrowserRouter>

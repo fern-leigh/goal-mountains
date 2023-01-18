@@ -5,14 +5,7 @@ export default function Home() {
     return (
     <>
         <div>
-            <a href="/mountains">
-            Mountains
-             </a>
-        </div>
-        <div>
-            <a href=" /trophy-room">
-            Trophies
-            </a>
+            <p>Welcome to the Home page</p>
         </div>
     </>
     )
